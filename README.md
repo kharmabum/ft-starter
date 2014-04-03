@@ -1,5 +1,7 @@
 # ft-starter
 
+Starter template for future projects.
+
 ## Build Process
 
 - Framekwork: [Ember App Kit], [eak-update](https://github.com/gevious/eak-update)
@@ -28,8 +30,8 @@
 
 ### Future Goals
 
-- Add [OAuth2](http://goo.gl/LK5U0J): [authorization](https://github.com/jaredhanson/oauth2orize)/[authentication](https://github.com/jaredhanson/passport-http-bearer), client creation,
-- Add client side authentication, client creation: [Ember-Simple-Auth](https://github.com/simplabs/ember-simple-auth), [Ember-Auth](https://github.com/heartsentwined/ember-auth)
+- [OAuth2](http://goo.gl/LK5U0J): [authorization](https://github.com/jaredhanson/oauth2orize)/[authentication](https://github.com/jaredhanson/passport-http-bearer), client creation,
+- Client side authentication, client creation: [Ember-Simple-Auth](https://github.com/simplabs/ember-simple-auth), [Ember-Auth](https://github.com/heartsentwined/ember-auth)
 
 ### Inspiration
 
