@@ -35,7 +35,7 @@ Helpers.filterAvailableTasks = function(tasks){
     var baseName = taskName.split(':')[0]; // e.g. 'coffee' for 'coffee:compile'
     var reqs = taskRequirements[baseName];
     var isAvailable = Helpers.isPackageAvailable(reqs);
-    return isAvailable ? taskName : taskFallbacks[taskName]; 
+    return isAvailable ? taskName : taskFallbacks[taskName];
   });
 
   return _.flatten(_.compact(tasks)); // Remove undefined's and flatten it
@@ -50,7 +50,7 @@ Helpers.isPackageAvailable = function(pkgNames) {
     if (!_.isArray(pkgNames)) { pkgNames = [pkgNames]; }
 
     return _.any(pkgNames, function(pkgName) {
-      return !!Helpers.pkg.devDependencies[pkgName];
+      return !!Helpers.pkg.dependencies[pkgName];
     });
   });
 };

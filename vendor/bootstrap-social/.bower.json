@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-social",
+  "version": "4.2.0",
+  "main": "bootstrap-social.css",
+  "licence": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower.json",
+    "assets",
+    "index.html",
+    "LICENCE"
+  ],
+  "dependencies": {
+    "bootstrap": ">= 3.0.0",
+    "font-awesome": ">= 4.0.0"
+  },
+  "homepage": "https://github.com/lipis/bootstrap-social",
+  "_release": "4.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "4.2.0",
+    "commit": "b156a6caeaffe2286e60c80a62044ddf455ad59c"
+  },
+  "_source": "git://github.com/lipis/bootstrap-social.git",
+  "_target": "~4.2.0",
+  "_originalSource": "bootstrap-social"
+}

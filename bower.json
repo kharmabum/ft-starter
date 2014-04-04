@@ -1,5 +1,5 @@
 {
-  "name": "ember-app-kit",
+  "name": "ft-starter",
   "dependencies": {
     "handlebars": "~1.1.2",
     "jquery": "~1.9.1",
