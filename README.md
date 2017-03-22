@@ -44,7 +44,7 @@ Starter template for future projects.
 
 [Ember App Kit]: https://github.com/stefanpenner/ember-app-kit
 [QUnit]: https://qunitjs.com/
-[Mocha]: http://visionmedia.github.io/mocha/
+[Mocha]: http://mochajs.org/
 [Karma]: http://karma-runner.github.io/
 [Grunt]: http://gruntjs.com/
 [NPM]: https://npmjs.org/
